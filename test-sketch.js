@@ -13,7 +13,7 @@ function draw() {
 var ds;
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(800, 200);
   ds = new PenroseLSystem();
   //please, play around with the following line
   ds.simulate(5);
